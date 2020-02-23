@@ -10,3 +10,6 @@ npm install passport-jwt //strategy for authenticating with a JSON Web Token (JW
 npm install validator //used to validate inputs (e.g. check for valid email format, confirming passwords match)
 
 npm i -D nodemon
+
+
+npm i bootstrap
