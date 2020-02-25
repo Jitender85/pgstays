@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from 'react';
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { logoutUser } from "../../actions/authActions";
 
-class Dashboard extends Component {
+class Dashboard extends React.Component {
   onLogoutClick = e => {
     e.preventDefault();
     this.props.logoutUser();
