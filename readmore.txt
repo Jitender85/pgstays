@@ -9,7 +9,20 @@ npm install passport  //used to authenticate requests, which it does through an 
 npm install passport-jwt //strategy for authenticating with a JSON Web Token (JWT); lets you authenticate endpoints using a JWT
 npm install validator //used to validate inputs (e.g. check for valid email format, confirming passwords match)
 
-npm i -D nodemon
+npm install nodemon --save-dev
 
-
-npm i bootstrap
+npm install redux
+npm install react-redux
+npm install @types/react-redux
+npm install redux-thunk
+npm install redux-saga
+npm install @redux-saga/types
+npm install react-router
+npm install @types/react-router
+npm install react-router-dom
+npm install @types/react-router-dom
+npm install jwt-decode
+npm install bootstrap
+npm install axios
+npm install classnames
+npm install styled-components
